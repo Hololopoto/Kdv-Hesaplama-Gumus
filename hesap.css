@@ -1,0 +1,24 @@
+.navbar .container a {
+  margin-left: auto;
+  margin-right: auto;
+}
+#hr .alert,
+.patates2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.container-data {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .container-data {
+    flex-direction: column;
+  }
+  #hr .alert,
+  .patates2 {
+    width: 100%;
+  }
+}
