@@ -61,7 +61,7 @@ function showAlert(type, message) {
 function showAlert2(type, message) {
   const alert2 = document.createElement("div");
   alert2.className = `alert alert-${type}`;
-  alert2.id = "patates2";
+  alert2.id = "alert-2";
   alert2.textContent = message;
   costAlert.appendChild(alert2);
   //   //! Set Timeout Metodu
