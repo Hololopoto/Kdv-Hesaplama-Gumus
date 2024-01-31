@@ -34,7 +34,7 @@ function addCost(e) {
 function addK1(e) {
   const costInput2 = cost.value.replace(",", ".");
   const eCarpim = costInput2 * x;
-  document.querySelector("#k1").value = eCarpim.toFixed(2);
+  k1.value = eCarpim.toFixed(2);
   // e.preventDefault();
 }
 function addK2(e) {
@@ -42,7 +42,7 @@ function addK2(e) {
   const costK1 = k1.value;
   const cikarma = costInput3 - costK1;
   console.log(cikarma);
-  document.querySelector("#k2").value = cikarma.toFixed(2);
+  k2.value = cikarma.toFixed(2);
 }
 
 function showAlert(type, message) {
